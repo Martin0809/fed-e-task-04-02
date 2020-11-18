@@ -54,6 +54,7 @@ const App = observer(() => {
       <div className="btn-div">
         <button
           className={isPicking ? 'disabled' : ''}
+          disabled={isPicking}
           onClick={() => pickApple()}
         >
           {buttonText}
